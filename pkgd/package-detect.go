@@ -15,7 +15,7 @@ func main() {
 	var i int = 0
 	var j int = 0
 	for i = 0; i < len(s); i++ {
-		//fare che conta ogni pacchetto
+		//counts every package
 		if raw[i] == 10 {
 			j++
 		}
