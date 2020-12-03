@@ -1,12 +1,12 @@
-package main
+package pkgd
 
 import (
-	"log"
 	"os/exec"
-	_ "strings"
+	//"strings"
 )
 
-func main() {
+//PackageCounter counts every Go package you have installed
+func PackageCounter() int {
 	proc := exec.Command("go", "list", "...")
 	raw, _ := proc.Output()
 
@@ -21,5 +21,5 @@ func main() {
 		}
 	}
 
-	log.Println(j)
+	return j
 }
