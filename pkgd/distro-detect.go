@@ -95,7 +95,7 @@ func getOSRelease() (map[string]string, bool) {
 	return osmap, true
 }
 
-//GetDist is used to 
+//GetDist is used to get the distro information if on Linux
 func GetDist() Distro {
 	var detect string
 	var release string
