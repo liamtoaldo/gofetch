@@ -9,7 +9,6 @@ import (
 func PackageCounter() int {
 	proc := exec.Command("go", "list", "...")
 	raw, _ := proc.Output()
-
 	s := string(raw)
 
 	var i int = 0
@@ -20,6 +19,6 @@ func PackageCounter() int {
 			j++
 		}
 	}
-
+	
 	return j
 }
