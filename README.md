@@ -17,7 +17,8 @@
     Show off your Go information with this cool command-line tool!
     <br />
     <br />
-    <a href="https://github.com/Gyro7/gofetch/issues">Report Bug || </a>
+    <a href="https://github.com/Gyro7/gofetch/issues">Report Bug</a>
+    <p> || </p>
     <a href="https://github.com/Gyro7/gofetch/issues">Request Feature</a>
   </p>
 </p>
@@ -42,6 +43,7 @@
 
 <br>
 <p align="center">A pretty command-line "Go and System information" tool written in Go
+<br>
 <img src="https://i.imgur.com/Vm9gENO.png" alt="example" width="400">
 </p>
 
