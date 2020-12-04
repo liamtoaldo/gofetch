@@ -18,7 +18,7 @@
     <br />
     <br />
     <a href="https://github.com/Gyro7/gofetch/issues">Report Bug</a> || 
-    <a href="https://github.com/Gyro7/gofetch/issues">Request Feature</a>
+    <a href="https://github.com/Gyro7/gofetch/pulls">Request Feature</a>
   </p>
 </p>
 
