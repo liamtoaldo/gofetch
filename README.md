@@ -136,4 +136,4 @@ Project Link: [https://github.com/Gyro7/gofetch](https://github.com/Gyro7/gofetc
 [issues-shield]: https://img.shields.io/github/issues/Gyro7/gofetch.svg?style=flat-square
 [issues-url]: https://github.com/Gyro7/gofetch/issues
 [license-shield]: https://img.shields.io/github/license/Gyro7/gofetch.svg?style=flat-square
-[license-url]: https://github.com/Gyro7/gofetch/blob/master/LICENSE.txt
+[license-url]: https://github.com/Gyro7/gofetch/blob/master/LICENSE
