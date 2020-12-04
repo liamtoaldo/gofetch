@@ -8,16 +8,16 @@
 <br />
 <p align="center">
   <a href="https://github.com/Gyro7/gofetch">
-    <img src="https://i.imgur.com/jkoGdvD.jpg" alt="Logo" heigth="80">
+    <img src="https://i.imgur.com/jkoGdvD.jpg" alt="Logo" heigth="60">
   </a>
 
   <h3 align="center">GoFetch</h3>
 
   <p align="center">
-    GoFetch
+    Show off your Go information with this cool command-line tool!
     <br />
     <br />
-    <a href="https://github.com/Gyro7/gofetch/issues">Report Bug</a>
+    <a href="https://github.com/Gyro7/gofetch/issues">Report Bug || </a>
     <a href="https://github.com/Gyro7/gofetch/issues">Request Feature</a>
   </p>
 </p>
