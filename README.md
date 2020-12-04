@@ -41,7 +41,7 @@
 ## About The Project  
 
 <br>
-<p align="center">A pretty command-line "Go and System information" tool written in Go</p>
+<p align="center">A pretty command-line "Go and System information" tool written in Go
 <img src="https://i.imgur.com/Vm9gENO.png" alt="example" width="400">
 </p>
 
