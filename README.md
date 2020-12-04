@@ -42,7 +42,9 @@
 
 A pretty command-line "Go and System information" tool written in Go
 <br>
-<img align="center" src="https://i.imgur.com/Vm9gENO.png" alt="example" width="400">
+<p align="center">
+<img src="https://i.imgur.com/Vm9gENO.png" alt="example" width="400">
+</p>
 
 ### Built With
 
