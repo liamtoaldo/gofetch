@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Gyro7/gofetch">
-    <img src="https://imgur.com/jkoGdvD" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/jkoGdvD.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">GoFetch</h3>
