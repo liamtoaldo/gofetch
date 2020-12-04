@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Gyro7/gofetch">
-    <img src="https://i.imgur.com/jkoGdvD.jpg" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/jkoGdvD.jpg" alt="Logo" heigth="80">
   </a>
 
   <h3 align="center">GoFetch</h3>
@@ -42,7 +42,7 @@
 
 A pretty command-line "Go and System information" tool written in Go
 <br>
-<img src="https://i.imgur.com/Vm9gENO.png" alt="example" width="400">
+<img align="center" src="https://i.imgur.com/Vm9gENO.png" alt="example" width="400">
 
 ### Built With
 
@@ -83,7 +83,7 @@ gofetch
 If you followd the previous steps, you just have to run the program with
 
 ```sh
-gofetch # yarn start
+gofetch # start the main program
 ```
 
 <!-- ROADMAP -->
