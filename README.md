@@ -91,7 +91,7 @@ Open start menu,
 ```
 ## Usage
 
-If you followd the previous steps, you just have to run the program with
+If you followed the previous steps, you just have to run the program with
 
 ```sh
 gofetch # start the main program
