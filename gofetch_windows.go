@@ -13,7 +13,6 @@ import (
 	si "github.com/matishsiao/goInfo"
 	"github.com/shirou/gopsutil/mem"
 	"github.com/wille/osutil"
-	_ "github.com/zcalusic/sysinfo"
 )
 
 func main() {
@@ -29,9 +28,8 @@ func main() {
 
 	goversion := "\033[1;33m" + "GO Version:   " + "\033[37m" + runtime.Version() + "\033[1;34m"
 	goarch :=    "\033[1;33m" + "GO Arch:      " + "\033[37m" + osutil.GetDisplayArch() + "\033[1;34m"
-	os := 		 "\033[1;33m" + "Distro:       " + "\033[37m" + pkgd.GetDist().Description + "\033[1;34m"
-	osbased :=   "\033[1;33m" + "Based on:     " + "\033[37m" + osutil.GetDisplay() + "\033[1;34m"
-	kernel := 	 "\033[1;33m" + "Kernel:       " + "\033[37m" + si.GetInfo().Core + "\033[1;34m"
+	os := 		 "\033[1;33m" + "OS:           " + "\033[37m" + fmt.Sprintf("%v %v", osutil.Name, osutil.GetVersion()) + "\033[1;34m"
+	version := 	 "\033[1;33m" + "Version:      " + "\033[37m" + si.GetInfo().Core + "\033[1;34m"
 	gopkg := 	 "\033[1;33m" + "GO Packages:  " + "\033[37m" + fmt.Sprint(pkgd.PackageCounter()) + "\033[1;34m"
 	gocompiler :="\033[1;33m" + "GO Compiler:  " + "\033[37m" + fmt.Sprint(runtime.Compiler) + "\033[1;34m"
 	goroot :=    "\033[1;33m" + "Go Root:      " + "\033[37m" + runtime.GOROOT() + "\033[1;34m"
@@ -54,10 +52,9 @@ func main() {
    }           [______]          I         `) + gocompiler + (`
    ]             |_|_|           |         `) + goroot + (`
    ]                             |         `) + os + (`
-   |                             |         `) + osbased + (`
-   |                             |         `) + kernel + (`
-   |				 |	   `) + memory + (`
-                                         `) + spacer + (`
+   |                             |         `) + version + (`
+   |                             |         `) + memory + (`
+                                        `) + spacer + (`
                                                `) + colors1 + (`
                                                `) + colors2 + (`
 `)
