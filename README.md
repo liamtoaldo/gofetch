@@ -60,11 +60,11 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 -   golang
--   linux (it's not available for windows yet)
+-   linux or windows (not available for mac at the moment)
 
 ### Installation
 
-
+#### Linux
 ```sh
 # clone and go into repo
 git clone https://github.com/Gyro7/gofetch.git
@@ -77,9 +77,18 @@ rm -rf gofetch/
 # run
 gofetch
 ```
+#### Windows
+```Open start menu,
 
-<!-- USAGE EXAMPLES -->
-
+Type Edit environment variables
+Open the option Edit the system environment variables
+Click Environment variables... button
+There you see two boxes, in System Variables box find path variable
+Click Edit
+a window pops up, click New
+Type the Directory path of your .exe or batch file ( Directory means exclude the file name from path)
+Click Ok on all open windows and restart your system restart the command prompt.
+```
 ## Usage
 
 If you followd the previous steps, you just have to run the program with
