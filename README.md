@@ -87,7 +87,7 @@ Open start menu,
 5. Click Edit
 6. a window pops up, click New
 7. Type the Directory path of gofetch.exe (Directory means exclude the file name from path)
-8. Click Ok on all open windows and restart your system restart the command prompt.
+8. Click Ok on all open windows and restart the command prompt.
 ```
 ## Usage
 
