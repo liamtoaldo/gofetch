@@ -19,29 +19,24 @@ func main() {
 	//go version
 	_ = color.New(color.FgHiCyan)
 
-	/*\033[34m etc are ANSI COLOR CODES*/
-
 	//detect current user
 	currentUser, _ := user.Current()
 	user := currentUser.Name
-	host := /*blue*/"\033[1;33m" + "Host:      " + "\033[37m" + user + "@" + si.GetInfo().Hostname + "\033[1;34m"
+	host := "Host:      " + user + "@" + si.GetInfo().Hostname
 
-	goversion := "\033[1;33m" + "GO Version:   " + "\033[37m" + runtime.Version() + "\033[1;34m"
-	goarch :=    "\033[1;33m" + "GO Arch:      " + "\033[37m" + osutil.GetDisplayArch() + "\033[1;34m"
-	os := 		 "\033[1;33m" + "OS:           " + "\033[37m" + fmt.Sprintf("%v %v", osutil.Name, osutil.GetVersion()) + "\033[1;34m"
-	version := 	 "\033[1;33m" + "Version:      " + "\033[37m" + si.GetInfo().Core + "\033[1;34m"
-	gopkg := 	 "\033[1;33m" + "GO Packages:  " + "\033[37m" + fmt.Sprint(pkgd.PackageCounter()) + "\033[1;34m"
-	gocompiler :="\033[1;33m" + "GO Compiler:  " + "\033[37m" + fmt.Sprint(runtime.Compiler) + "\033[1;34m"
-	goroot :=    "\033[1;33m" + "Go Root:      " + "\033[37m" + runtime.GOROOT() + "\033[1;34m"
-	spacer :=    /*green*/"\033[1;32m" + " -------------------------------" + "\033[1;34m"
+	goversion := "GO Version:   " + runtime.Version()
+	goarch := "GO Arch:      " + osutil.GetDisplayArch()
+	os := "OS:           " + fmt.Sprintf("%v %v", osutil.Name, osutil.GetVersion())
+	version := "Version:      " + si.GetInfo().Core
+	gopkg := "GO Packages:  " + fmt.Sprint(pkgd.PackageCounter())
+	gocompiler := "GO Compiler:  " + fmt.Sprint(runtime.Compiler)
+	goroot := "Go Root:      " + runtime.GOROOT()
+	spacer := " -------------------------------"
 	m, _ := mem.VirtualMemory()
 	usedmemory := fmt.Sprint(m.Used/1048575, "MiB")
 	totalmemory := fmt.Sprint(m.Total/1048575, "MiB")
-	memory :=    "\033[1;33m" + "Memory:       " + "\033[37m" + usedmemory +" / " + totalmemory
-	colors1 :=   "\033[1;41m   \033[1;0m\033[1;42m   \033[1;0m\033[1;43m   \033[1;0m\033[1;44m   \033[1;0m\033[1;45m   \033[1;0m\033[1;46m   \033[1;0m\033[1;47m   \033[0;0m"
-	colors2 :=   "\033[1;41m   \033[0;0m\033[1;42m   \033[0;0m\033[1;43m   \033[0;0m\033[1;44m   \033[0;0m\033[1;45m   \033[0;0m\033[1;46m   \033[0;0m\033[1;47m   \033[0;0m"
-
-	gopherASCII := (/*yellow/orange*/"\033[1;34m" + `
+	memory := "Memory:       " + usedmemory + " / " + totalmemory
+	gopherASCII := (`
 
 	   ,_---~~~~~----._                                       
     _,,_,*^____       _____^*,_,,_         `) + host + (`
@@ -55,8 +50,6 @@ func main() {
    |                             |         `) + version + (`
    |                             |         `) + memory + (`
                                         `) + spacer + (`
-                                               `) + colors1 + (`
-                                               `) + colors2 + (`
 `)
 
 	fmt.Println(gopherASCII)
