@@ -96,6 +96,8 @@ If you have root access just follow the [Linux Installation](#linux)
 # clone and go into repo
 git clone https://github.com/Gyro7/gofetch.git
 cd gofetch/
+# remove the linux executable
+rm gofetch
 # build
 go build
 # run
