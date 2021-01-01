@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 -   golang
--   linux or windows (not available for mac at the moment)
+-   linux, android (Termux) or windows (not available for mac at the moment)
 
 ### Installation
 
@@ -88,6 +88,18 @@ Open start menu,
 6. a window pops up, click New
 7. Type the Directory path of gofetch.exe (Directory means exclude the file name from path)
 8. Click Ok on all open windows and restart the command prompt.
+```
+#### Android
+The only way to use gofetch for android if not having root access is building from source.  
+If you have root access just follow the [Linux Installation](#linux)
+```sh
+# clone and go into repo
+git clone https://github.com/Gyro7/gofetch.git
+cd gofetch/
+# build
+go build
+# run
+./gofetch
 ```
 ## Usage
 
