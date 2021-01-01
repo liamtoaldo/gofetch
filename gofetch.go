@@ -11,9 +11,9 @@ import (
 
 	"github.com/fatih/color"
 	si "github.com/matishsiao/goInfo"
-	"github.com/wille/osutil"
-	_"github.com/zcalusic/sysinfo"
 	"github.com/shirou/gopsutil/mem"
+	"github.com/wille/osutil"
+	_ "github.com/zcalusic/sysinfo"
 )
 
 func main() {
@@ -30,13 +30,11 @@ func main() {
 	goversion := "\033[1;33m" + "GO Version:   " + "\033[37m" + runtime.Version() + "\033[1;34m"
 	goarch :=    "\033[1;33m" + "GO Arch:      " + "\033[37m" + osutil.GetDisplayArch() + "\033[1;34m"
 	os := 		 "\033[1;33m" + "Distro:       " + "\033[37m" + pkgd.GetDist().Description + "\033[1;34m"
-	osbased := ""
 	//just a line of code to fix the android support
-	if runtime.GOOS == "Android" {
-		osbased = "\033[1;33m" + "Based on:     " + "\033[37m" + runtime.GOOS + "\033[1;34m"
-	} else {
-		osbased =   "\033[1;33m" + "Based on:     " + "\033[37m" + osutil.GetDisplay() + "\033[1;34m"
+	if runtime.GOOS == "android" {
+			os = "\033[1;33m" + "Distro:       " + "\033[37m" + "Android" + "\033[1;34m"
 	}
+	osbased :=   "\033[1;33m" + "Based on:     " + "\033[37m" + osutil.GetDisplay() + "\033[1;34m"
 	kernel := 	 "\033[1;33m" + "Kernel:       " + "\033[37m" + si.GetInfo().Core + "\033[1;34m"
 	gopkg := 	 "\033[1;33m" + "GO Packages:  " + "\033[37m" + fmt.Sprint(pkgd.PackageCounter()) + "\033[1;34m"
 	gocompiler :="\033[1;33m" + "GO Compiler:  " + "\033[37m" + fmt.Sprint(runtime.Compiler) + "\033[1;34m"
