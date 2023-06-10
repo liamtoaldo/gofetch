@@ -139,7 +139,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-gyro - [gyroo@tuta.io](mailto:gyroo@tuta.io)
+Me - [liamtoaldo+gh@gmail.com](mailto:liamtoaldo+gh@gmail.com)
 Project Link: [https://github.com/liamtoaldo/gofetch](https://github.com/liamtoaldo/gofetch)
 
 <!-- ACKNOWLEDGEMENTS -->
