@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Gyro7/gofetch">
+  <a href="https://github.com/liamtoaldo/gofetch">
     <img src="https://i.imgur.com/jkoGdvD.jpg" alt="Logo" heigth="60">
   </a>
 
@@ -17,8 +17,8 @@
     Show off your Go information with this cool command-line tool!
     <br />
     <br />
-    <a href="https://github.com/Gyro7/gofetch/issues">Report Bug</a> || 
-    <a href="https://github.com/Gyro7/gofetch/pulls">Request Feature</a>
+    <a href="https://github.com/liamtoaldo/gofetch/issues">Report Bug</a> || 
+    <a href="https://github.com/liamtoaldo/gofetch/pulls">Request Feature</a>
   </p>
 </p>
 
@@ -44,7 +44,7 @@
 <p align="center">A pretty command-line "Go and System information" tool written in Go
   <br>
   <br>
-<img src="https://i.imgur.com/Vm9gENO.png" alt="example" width="800">
+<img src="https://i.imgur.com/22FgDEX.png" alt="example" width="800">
 </p>
 
 ### Built With
@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps.
 #### Linux
 ```sh
 # clone and go into repo
-git clone https://github.com/Gyro7/gofetch.git
+git clone https://github.com/liamtoaldo/gofetch.git
 cd gofetch/
 # install
 sudo install -m755 gofetch /usr/bin/gofetch
@@ -94,7 +94,7 @@ The only way to use gofetch for android if not having root access is building fr
 If you have root access just follow the [Linux Installation](#linux)
 ```sh
 # clone and go into repo
-git clone https://github.com/Gyro7/gofetch.git
+git clone https://github.com/liamtoaldo/gofetch.git
 cd gofetch/
 # remove the linux executable
 rm gofetch
@@ -115,7 +115,7 @@ gofetch # start the main program
 
 ## Roadmap
 
-See the [open issues](https://github.com/Gyro7/gofetch/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/liamtoaldo/gofetch/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -140,24 +140,24 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 gyro - [gyroo@tuta.io](mailto:gyroo@tuta.io)
-Project Link: [https://github.com/Gyro7/gofetch](https://github.com/Gyro7/gofetch)
+Project Link: [https://github.com/liamtoaldo/gofetch](https://github.com/liamtoaldo/gofetch)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
 
--   [Myself for doing everything.](https://github.com/Gyro7)
+-   [Myself for doing everything.](https://github.com/liamtoaldo)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Gyro7/gofetch.svg?style=flat-square
-[contributors-url]: https://github.com/Gyro7/gofetch/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Gyro7/gofetch.svg?style=flat-square
-[forks-url]: https://github.com/Gyro7/gofetch/network/members
-[stars-shield]: https://img.shields.io/github/stars/Gyro7/gofetch.svg?style=flat-square
-[stars-url]: https://github.com/Gyro7/gofetch/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Gyro7/gofetch.svg?style=flat-square
-[issues-url]: https://github.com/Gyro7/gofetch/issues
-[license-shield]: https://img.shields.io/github/license/Gyro7/gofetch.svg?style=flat-square
-[license-url]: https://github.com/Gyro7/gofetch/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/liamtoaldo/gofetch.svg?style=flat-square
+[contributors-url]: https://github.com/liamtoaldo/gofetch/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/liamtoaldo/gofetch.svg?style=flat-square
+[forks-url]: https://github.com/liamtoaldo/gofetch/network/members
+[stars-shield]: https://img.shields.io/github/stars/liamtoaldo/gofetch.svg?style=flat-square
+[stars-url]: https://github.com/liamtoaldo/gofetch/stargazers
+[issues-shield]: https://img.shields.io/github/issues/liamtoaldo/gofetch.svg?style=flat-square
+[issues-url]: https://github.com/liamtoaldo/gofetch/issues
+[license-shield]: https://img.shields.io/github/license/liamtoaldo/gofetch.svg?style=flat-square
+[license-url]: https://github.com/liamtoaldo/gofetch/blob/master/LICENSE
